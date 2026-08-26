@@ -2881,4 +2881,23 @@
         </calibration>
     </lens>
 
+	<lens>
+        <maker>TTArtisan</maker>
+        <model>TTArtisan APS-C 35mm F1.4</model>
+        <mount>Leica L</mount>
+        <mount>Sony E</mount>
+        <mount>Nikon Z</mount>
+        <mount>Fujifilm X</mount>
+        <mount>Canon RF</mount>
+        <mount>Canon EF-M</mount>
+        <mount>Micro 4/3 System</mount>
+        <cropfactor>1.534</cropfactor>
+        <calibration>
+            <!-- Taken with Fujifilm X-A10 -->
+            <distortion model="ptlens" focal="35" a="0.005844" b="-0.0236362" c="0.0151378"/>
+            <tca model="poly3" focal="35" vr="1.0000029" vb="1.0000623"/>
+            <tca model="poly3" focal="35" vr="1.0000118" vb="1.0000790"/>
+        </calibration>
+    </lens>
+
 </lensdatabase>

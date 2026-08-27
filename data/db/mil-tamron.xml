@@ -3,14 +3,16 @@
 
     <lens>
         <maker>Tamron</maker>
-        <model>E 17-70mm F2.8 B070</model>
-	<model lang="en">Tamron 17-70mm F/2.8 Di III-A VC RXD</model>
+        <model>Tamron 17-70mm F2.8 B070 Z/RF/X/E</model>
+		<model lang="en">Tamron 17-70mm F/2.8 Di III-A VC RXD</model>
+        <mount>Nikon Z</mount>
         <mount>Sony E</mount>
+        <mount>Fujifilm X</mount>
+        <mount>Canon RF</mount>
         <cropfactor>1.534</cropfactor>
-        <aspect-ratio>4:3</aspect-ratio>
         <calibration>
 	    <!-- Taken with Sony A6000 -->
-	    <distortion model="ptlens" focal="17" a="0.02392" b="-0.07326" c="0.03809"/>
+	        <distortion model="ptlens" focal="17" a="0.02392" b="-0.07326" c="0.03809"/>
             <distortion model="ptlens" focal="24" a="0.01409" b="-0.02879" c="0.02157"/>
             <distortion model="ptlens" focal="35" a="0.00492" b="0.00706" c="-0.00901"/>
             <distortion model="ptlens" focal="52" a="0.01455" b="-0.04175" c="0.07031"/>

@@ -2050,4 +2050,29 @@
         </calibration>
     </lens>
 
+	<lens>
+        <maker>Nikon</maker>
+        <model>Nikkor Z DX 16-50mm f/2.8 VR</model>
+        <mount>Nikon Z</mount>
+        <cropfactor>1.531</cropfactor>
+        <calibration>
+            <!-- Taken with Nikon Z fc -->
+            <distortion model="ptlens" focal="16" a="0.0309923" b="-0.1045448" c="0.0380993"/>
+            <distortion model="ptlens" focal="18" a="0.029699" b="-0.0988945" c="0.0497233"/>
+            <distortion model="ptlens" focal="19.5" a="0.0228272" b="-0.0724007" c="0.0397664"/>
+            <distortion model="ptlens" focal="24" a="0.0134016" b="-0.0376783" c="0.0261127"/>
+            <distortion model="ptlens" focal="35" a="0.0047471" b="-0.0064923" c="0.0113778"/>
+            <distortion model="ptlens" focal="42" a="0.0043733" b="-0.0001402" c="0.0034179"/>
+            <distortion model="ptlens" focal="50" a="0.0055555" b="-0.0026832" c="0.0088415"/>
+            <tca model="poly3" focal="16" vr="1.0004235" vb="1.0000078"/>
+            <tca model="poly3" focal="18" vr="1.0002408" vb="1.0000631"/>
+            <tca model="poly3" focal="19.5" vr="1.0001694" vb="1.0000643"/>
+            <tca model="poly3" focal="21" vr="1.0001546" vb="1.0000946"/>
+            <tca model="poly3" focal="24.5" vr="1.0001534" vb="1.0000161"/>
+            <tca model="poly3" focal="35" vr="1.0001197" vb="0.9999633"/>
+            <tca model="poly3" focal="42" vr="1.0000259" vb="0.9999824"/>
+            <tca model="poly3" focal="50" vr="0.9999123" vb="1.0000348"/>
+        </calibration>
+    </lens>
+
 </lensdatabase>

@@ -2900,4 +2900,17 @@
         </calibration>
     </lens>
 
+	<lens>
+        <maker>Viltrox</maker>
+        <model>Viltrox AF 14mm f/4.0 Z/FE</model>
+        <model lang="en">Viltrox AF 14mm f/4.0</model>
+        <mount>Nikon Z</mount>
+        <mount>Sony E</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+            <!-- Taken with Nikon Z6M3 -->
+            <distortion model="ptlens" focal="14" a="0.03431" b="-0.11264" c="0.09647"/>
+        </calibration>
+    </lens>
+
 </lensdatabase>
